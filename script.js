@@ -14,12 +14,20 @@ function createGrill(sps = 16) {
     }
 }
 
+createGrill(8)
 
 //2. Create a function that detects when a square is hovered over
+const squares = document.getElementsByClassName('square');
 
+for (let i = 0; i < squares.length; i++) {
+    squares[i].addEventListener('mouseover', paint);
+    
+}
 
 //3. Get from the buttons the color to paint the squares
 
 //4. Function to paint a square
-
+function paint(e) {
+    this.style.backgroundColor = "black";
+}
 //5. Function to erase everything
