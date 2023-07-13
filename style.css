@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-image: url(images/back.jpg);
+}
+
+header {
+    text-align: center;
+    margin: 10px auto;
+}
+
+header #title{
+    font-size: 56px;
+    color: whitesmoke;
+    margin: 18px 0;
+}
+
+.instructions {
+    font-size: 24px;
+    color: gainsboro;
+}
+
+#playmat {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 30px 5px;
+    
+}
+
+#color-options,
+#other-options {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+button {
+    width: 200px;
+    height: auto;
+    margin-top: 28px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: goldenrod;
+    border: black solid 3px;
+    border-radius: 10px;
+}
+
+#sketch {
+    border: groove goldenrod 25px;
+    background-color: white;
+    height: 960px;
+    width: 960px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.square {
+    box-sizing: border-box;
+    border: solid black 1px;
+    height: auto;
+}
+
+footer {
+    padding: 8px 0;
+    background-color: midnightblue;
+    text-align: center;
+    font-size: 30px;
+    color: whitesmoke;
+}
+
+footer h6 {
+    margin: 0;
+    font-weight: lighter;
+}
